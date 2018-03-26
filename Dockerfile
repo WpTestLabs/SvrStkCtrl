@@ -10,5 +10,4 @@ RUN apk --update add curl git openssh rsync \
 
 #COPY /DkrBldCtx/a.txt /a.txt
 
-
 CMD /bin/sh
