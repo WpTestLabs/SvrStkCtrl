@@ -2,7 +2,7 @@ FROM alpine
 LABEL repo github.com/WpTestLabs/SvrStkCtrl
 LABEL maintainer WpTestLabs <_____@gmail.com>
 
-RUN apk --update add curl git  \ 
+RUN apk --update add curl git openssh \ 
      pwgen haveged && \
     rm -rf /var/lib/apt/lists/* && \
     rm /var/cache/apk/*
