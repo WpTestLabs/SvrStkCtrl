@@ -1,1 +1,3 @@
 # SvrStkCtrl
+Dockerfile for image with extra packages used at Build Time, but not during Production.
+  e.g. curl, git, rsync, ...
